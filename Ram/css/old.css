@@ -1,0 +1,381 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: cursive;
+}
+
+.cont{
+	display: grid;
+
+	height: 100vh;
+
+	grid-template-columns: 3fr;
+	grid-template-rows: 15% 6%;
+
+
+}
+body{
+	
+	font-family: cursive;
+}
+
+.logo img{
+	float: left;
+	width: 18%;
+	width: 10rem;
+	height: auto;
+	}
+
+
+ul{
+	float: right;
+	margin-top: 5%;
+	    
+	list-style-type: none ;
+	
+	margin-right: 5%;
+}
+
+ul li{
+	display: inline-block;
+
+}
+ul li a {
+	text-decoration: none;
+	color:black;
+	padding: 5% 1rem;
+	border: 100%  solid black;
+	background-color: white;
+	border-radius: 10%;
+	text-transform: uppercase;
+}
+ul li a:hover{
+	background-color: darkred;
+	color: ghostwhite;
+}
+.child{
+	    
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    background-position-x: 27%;
+    background-size: 40%;
+    background-position: 34%;
+}
+
+ hr{
+	margin-top: 1rem;
+	width: 100%;
+	border-bottom: 10% solid black;
+	background-color: blue;
+
+}
+
+h1{ 
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+
+.child2{
+    margin-top: 7%;
+    width: 32%;
+    height: 74%;
+    
+   
+}
+button {
+    position: relative;
+    align-items: center;
+    margin-left: 17%;
+    height: 9%;
+    width: 68%;
+    margin-top: 2rem;
+    border-radius: 9%;
+    padding: 1em;
+    border: 100% solid black;
+    background-color: #62b0b9;
+    cursor: pointer;
+    transition: 0.20s ease;
+}
+
+button:hover{
+	background-color: darkred;
+}
+
+button a{
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	color: ghostwhite;
+
+}
+
+@media (max-width: 820px)
+{
+	.cont{
+		background-color: white;
+    grid-template-rows: 20% 9% 86%;
+    	}
+	.logo img{
+		width: 38%;
+    margin: 0%;
+    margin-left: 31%;
+    margin-top: 0%;
+
+	}
+	#hr{
+		    margin-top: 0%;
+    margin-right: 0%;
+    padding: 0;
+    height: 54px;
+    list-style: none;
+    background-color: black;
+    transition: 0.20s ease;
+    width: 100%;
+		}
+#l{
+	
+	display: inline-flex;
+	transition: 0.20s ease;
+
+}
+#t{
+	    display: block;
+    padding: 12px 18px;
+    margin: 0%;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+
+}
+#t:hover{
+	background-color: ghostwhite;
+	color: black;
+
+}
+button{
+       position: relative;
+    align-items: center;
+    margin-left: 5%;
+    height: 12%;
+    width: 102%;
+    margin-top: 1rem;
+    border-radius: -5%;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+  
+   transition: 0.1s ease;
+}
+
+
+
+button a{
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	color: #5f5f69;
+	cursor: pointer;
+
+}
+button:hover {
+	color: floralwhite;
+	background-color: #1d232296;
+}
+a:hover{
+	color: ghostwhite;
+}
+.child{
+	    
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    background-position-x: 27%;
+    background-size: 40%;
+    background-position: 42% 31%;
+    }
+}
+
+
+@media (max-width: 760px)
+{
+	.cont{
+		background-color: white;
+    grid-template-rows: 20% 9% 86%;
+    	}
+	.logo img{
+		width: 38%;
+    margin: 0%;
+    margin-left: 31%;
+    margin-top: 0%;
+
+	}
+	#hr{
+		    margin-top: 1%;
+    margin-right: 0%;
+    padding: 0;
+    height: 60px;
+    list-style: none;
+    background-color: black;
+    transition: 0.20s ease;
+    width: 100%;
+		}
+#l{
+	
+	display: inline-flex;
+	transition: 0.20s ease;
+
+}
+#t{
+	    display: block;
+    padding: 4px 18px;
+    margin: 0%;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+
+}
+#t:hover{
+	background-color: ghostwhite;
+	color: black;
+
+}
+button{
+       position: relative;
+    align-items: center;
+    margin-left: 5%;
+    height: 12%;
+    width: 102%;
+    margin-top: 1rem;
+    border-radius: -5%;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+  
+   transition: 0.1s ease;
+}
+
+
+
+button a{
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	color: #5f5f69;
+	cursor: pointer;
+
+}
+button:hover {
+	color: floralwhite;
+	background-color: #1d232296;
+}
+a:hover{
+	color: ghostwhite;
+}
+}
+
+@media (max-width: 380px)
+{
+	.cont{
+		background-color: whitesmoke
+    grid-template-rows: 20% 9% 86%;
+    	}
+	.logo img{
+		width: 40%;
+    margin: 0%;
+    margin-left: 31%;
+    margin-top: 3%;
+
+	}
+	#hr{
+	margin-top: 13%;
+    margin-right: 0%;
+    padding: 0;
+    height: 54px;
+    list-style: none;
+    background-color: black;
+    transition: 0.20s ease;
+		}
+#l{
+	
+	display: inline-flex;
+	transition: 0.20s ease;
+
+}
+#t{
+	    display: block;
+    padding: 4px 18px;
+    margin: 0%;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+
+}
+#t:hover{
+	background-color: ghostwhite;
+	color: black;
+
+}
+button{
+       position: relative;
+    align-items: center;
+    margin-left: 5%;
+    height: 12%;
+    width: 102%;
+    margin-top: 1rem;
+    border-radius: -5%;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+  
+   transition: 0.1s ease;
+}
+
+
+
+button a{
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	color: #5f5f69;
+	cursor: pointer;
+
+}
+button:hover {
+	color: floralwhite;
+	background-color: #1d232296;
+}
+a:hover{
+	color: ghostwhite;
+}
+
+.child2 {
+    margin-top: 37%;
+    width: 32%;
+    height: 70%;
+    }
+    .dimag{
+    	margin-top: 14%;
+    }
+    .child {
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    background-position-x: 27%;
+    background-size: 40%;
+    background-position: 42% 64%;
+}
+
+}
+
+
